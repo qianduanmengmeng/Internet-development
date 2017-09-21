@@ -1,0 +1,43 @@
+﻿@charset "utf-8";
+/* CSS Document */
+#body *{display:none;}
+#body p.ie_block{display:block; position:fixed; top:50%; left:50%; font-size:20px;}
+li{vertical-align:middle;}
+img,fieldset{border:0;}
+img{display:block; border-style:none;behavior:url(compat/pngbehavior.htc);}
+/*去掉a，input，button外虚线框*/
+a,input,button{ outline:none;}
+::-moz-focus-inner{border:0;}
+/*鼠标变化*/
+.cup{cursor:hand;}/*手指*/
+/*浮动*/
+.fl, .fr{display:inline;}
+/*背景颜色半透明*/
+.bg8w{opacity:0.8;filter:alpha(opacity=80); background:#fff; position:relative; z-index:-1;} 
+.bg6w{opacity:0.6;filter:alpha(opacity=60); background:#fff; position:relative; z-index:-1;}
+.bg4w{opacity:0.4;filter:alpha(opacity=40); background:#fff; position:relative; z-index:-1;}
+.bg2w{opacity:0.2;filter:alpha(opacity=20); background:#fff; position:relative; z-index:-1;}
+.bg8b{opacity:0.8;filter:alpha(opacity=80); background:#000; position:relative; z-index:-1;} 
+.bg6b{opacity:0.6;filter:alpha(opacity=60); background:#000; position:relative; z-index:-1;}
+.bg4b{opacity:0.4;filter:alpha(opacity=40); background:#000; position:relative; z-index:-1;}
+.bg2b{opacity:0.2;filter:alpha(opacity=20); background:#000; position:relative; z-index:-1;}
+.bg8r{opacity:0.8;filter:alpha(opacity=80); background:#cc0031; position:relative; z-index:-1;}
+.bg6r{opacity:0.6;filter:alpha(opacity=60); background:#cc0031; position:relative; z-index:-1;}
+.bg4r{opacity:0.4;filter:alpha(opacity=40); background:#cc0031; position:relative; z-index:-1;}
+.bg2r{opacity:0.2;filter:alpha(opacity=20); background:#cc0031; position:relative; z-index:-1;}
+.b8db{opacity:0.8;filter:alpha(opacity=80); background:#039; position:relative; z-index:-1;} 
+.b6db{opacity:0.6;filter:alpha(opacity=60); background:#039; position:relative; z-index:-1;}
+.b4db{opacity:0.4;filter:alpha(opacity=40); background:#039; position:relative; z-index:-1;}
+.b2db{opacity:0.2;filter:alpha(opacity=20); background:#039; position:relative; z-index:-1;}
+.b8wd{opacity:0.8;filter:alpha(opacity=80); background:#878787; position:relative; z-index:-1;}
+.b6wd{opacity:0.6;filter:alpha(opacity=60); background:#878787; position:relative; z-index:-1;}
+.b4wd{opacity:0.4;filter:alpha(opacity=40); background:#878787; position:relative; z-index:-1;}
+.b2wd{opacity:0.2;filter:alpha(opacity=20); background:#878787; position:relative; z-index:-1;}
+/* 翻转和旋转 */
+.ot180y{filter:FlipH;}
+.ot180x{filter:FlipV;}
+.rt90{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rt180{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rt270{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+/* 通知IE调用脚本 */
+.b5_radius, .b3_shadow, .b15_radius, .b5_shadow, .b25_radius, .b8_shadow, .b35_radius, .b10_shadow, .b45_radius, .b15_shadow{position:relative;z-index:100;behavior: url(compat/iecss3.htc); }
